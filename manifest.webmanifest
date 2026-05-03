@@ -1,7 +1,7 @@
 {
   "name": "Stylish QR Coden",
   "short_name": "S-QR Code",
-  "start_url": ".",
+  "start_url": "/Stylish-QR-Code",
   "display": "standalone",
   "description": "Generate branded QR code online, you can add image and color to your QR code. Use the Stylish QR Code to generate custimize stylish QR codes.",
   "lang": "en",
