@@ -145,7 +145,8 @@ a:focus-visible {
     outline: 3px solid rgba(27, 102, 27, 0.28);
     outline-offset: 2px;
 }
-#form-image-file {
+
+input[type="file"]#form-image-file {
     display:none:
 }
                             
