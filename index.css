@@ -105,7 +105,8 @@ a:hover {
 }
 
 .button,
-button {
+button,
+.file-btn {
     appearance: none;
     min-width: 70px;
     border: 0;
@@ -119,7 +120,8 @@ button {
 }
 
 .button:hover,
-button:hover {
+button:hover,
+.file-btn:hover {
     background: var(--md-sys-color-primary-container);
     color: var(--md-sys-color-on-primary-container);
     box-shadow: var(--surface-shadow);
@@ -127,7 +129,8 @@ button:hover {
 }
 
 .button:active,
-button:active {
+button:active,
+.file-btn:active {
     transform: translateY(0);
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12);
 }
@@ -137,11 +140,16 @@ button:focus-visible,
 input:focus-visible,
 select:focus-visible,
 textarea:focus-visible,
+.file-btn:focus-visible,
 a:focus-visible {
     outline: 3px solid rgba(27, 102, 27, 0.28);
     outline-offset: 2px;
 }
-
+#form-image-file {
+    display:none:
+}
+                            
+}
 input,
 select,
 textarea {
@@ -206,38 +214,6 @@ input[type="radio"] {
     width: auto;
     margin: 0 8px 0 0;
     accent-color: var(--md-sys-color-primary);
-}
-
-/* Hide native input completely */
-#form-image-file {
-    display: none;
-}
-
-/* Custom button (Material-like) */
-.file-btn {
-    position: relative;
-    border-radius: 999px;
-    padding: 9px 16px;
-    background: var(--md-sys-color-primary);
-    color: var(--md-sys-color-on-primary);
-    font-size: 13px;
-    cursor: pointer;
-    transition: background-color 0.2s ease, transform 0.15s ease;
-}
-
-/* Icon using pseudo-element */
-.file-btn::before {
-    content: "📁 ";
-}
-
-/* Hover / active effects */
-.file-btn:hover {
-    background: #144d14;
-    transform: translateY(-1px);
-}
-
-.file-btn:active {
-    transform: translateY(0);
 }
 
 .hide {
