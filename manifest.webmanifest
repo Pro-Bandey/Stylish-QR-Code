@@ -47,6 +47,30 @@
   "prefer_related_applications": false,
   "shortcuts": [
     {
+      "name": "Privacy Policy",
+      "url": "./privacy",
+      "description": "Redirect To privacy",
+      "icons": [
+        {
+          "src": "./icons/pwa-192.png",
+          "type": "image/png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "License",
+      "url": "./LICENSE.txt",
+      "description": "Redirect To License",
+      "icons": [
+        {
+          "src": "./icons/pwa-192.png",
+          "type": "image/png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
       "name": "MainRoute Core",
       "url": "./mrc",
       "description": "Redirect To MRC",
