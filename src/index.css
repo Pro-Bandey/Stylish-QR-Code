@@ -31,9 +31,14 @@
     font-family: 'BAHNSCHRIFT', sans-serif !important;
 }
 
-body, button, input, select, textarea {
+body,
+button,
+input,
+select,
+textarea {
     font-family: 'BAHNSCHRIFT', sans-serif;
 }
+
 html {
     width: 100%;
     overflow-x: hidden;
@@ -460,4 +465,26 @@ input[type="radio"] {
     select {
         max-width: 100%;
     }
+}
+
+
+::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+    margin-block: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--md-sys-color-primary);
+    border-radius: var(--radius-lg);
+    cursor: grab;
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: var(--md-sys-color-primary-container);
+    cursor: grabbing;
 }
