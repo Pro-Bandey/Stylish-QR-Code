@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Privacy Policy | Stylish QR Code</title>
+    <meta name="description" content="Privacy policy for Stylish QR Code generator. Learn how we handle your data." />
+    <link rel="shortcut icon" type="image/x-icon" href="../icons/favicon.ico" />
+
+    <style>
+        :root {
+            --md-sys-color-primary: #1b661b;
+            --md-sys-color-on-primary: #ffffff;
+            --md-sys-color-primary-container: #a3f19a;
+            --md-sys-color-on-primary-container: #002200;
+            --md-sys-color-background: #fdfdf5;
+            --md-sys-color-on-background: #1a1c19;
+            --md-sys-color-surface: #fdfdf5;
+            --md-sys-color-on-surface: #1a1c19;
+            --md-sys-color-surface-variant: #dfe4d8;
+            --md-sys-color-on-surface-variant: #434940;
+            --md-sys-color-outline: #73796f;
+            --surface-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            --radius-lg: 24px;
+            --content-max: 900px;
+            /* Narrower for readability */
+            --page-padding: clamp(12px, 2vw, 24px);
+        }
+
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            font-family: 'Roboto', sans-serif;
+            font-size: 16px;
+            line-height: 1.6;
+            background: radial-gradient(circle at top, rgba(27, 102, 27, 0.05), transparent 30%), var(--md-sys-color-background);
+            color: var(--md-sys-color-on-background);
+        }
+
+        header,
+        footer {
+            width: 100%;
+            background: linear-gradient(180deg, #1f6e1f, var(--md-sys-color-primary));
+            color: var(--md-sys-color-on-primary);
+            padding: 16px var(--page-padding);
+            text-align: center;
+        }
+
+        .qr-header {
+            padding-bottom: 40px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: var(--content-max);
+            margin: 0 auto;
+            padding: 0 var(--page-padding);
+        }
+
+        .policy-card {
+            background: rgba(253, 253, 245, 0.88);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(115, 121, 111, 0.18);
+            border-radius: var(--radius-lg);
+            box-shadow: var(--surface-shadow);
+            padding: clamp(20px, 5vw, 40px);
+            margin-top: -30px;
+            /* Overlap with header gradient */
+            margin-bottom: 60px;
+        }
+
+        h1 {
+            color: var(--md-sys-color-on-primary);
+            font-weight: 300;
+            font-size: clamp(2rem, 5vw, 3rem);
+            margin: 0 0 10px 0;
+        }
+
+        h2 {
+            color: var(--md-sys-color-primary);
+            border-bottom: 2px solid var(--md-sys-color-primary-container);
+            padding-bottom: 8px;
+            margin-top: 32px;
+        }
+
+        p,
+        li {
+            color: var(--md-sys-color-on-surface-variant);
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: var(--md-sys-color-on-primary);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        @media (max-width: 480px) {
+            .policy-card {
+                border-radius: 18px;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="qr-header">
+        <div class="container">
+            <a href="../" class="back-link">← Back to Generator</a>
+            <h1>Privacy Policy</h1>
+            <p style="color: var(--md-sys-color-background);">Your data privacy is our priority.</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <article class="policy-card">
+            <h2>1. No Data Collection</h2>
+            <p>
+                <strong>Stylish QR Code</strong> is a client-side application. This means that all the information you
+                enter—whether it be URLs, Wi-Fi passwords, contact details (vCard), or SMS messages—is processed locally
+                in your web browser.
+            </p>
+            <p>
+                We do not collect, store, or transmit any of your personal data or the content of the QR codes you
+                generate to any external servers.
+            </p>
+
+            <h2>2. Local Processing</h2>
+            <p>
+                The generation of QR codes is handled by the <code>StylishQrGen</code> private, secure and client side JavaScript library directly on
+                your device. Since there is no "backend" database involved in the generation process, your sensitive
+                data never leaves your computer or smartphone.
+            </p>
+
+            <h2>3. Local Storage</h2>
+            <p>
+                Our application may use <strong>Local Storage</strong> or <strong>Cookies</strong> strictly for the
+                purpose of saving your preferred UI settings (such as chosen style templates or last used colors). This
+                is done solely to improve your user experience and is never shared with third parties.
+            </p>
+
+            <h2>4. Third-Party Services</h2>
+            <p>
+                This site did't use 3rd party services. While we do not collect data,We use our own services that provide us bvy <strong>MainRoute Core</strong> such <code>fonts, securirty , assets</code> and much more and this site powered by <strong>MainRoute Core</strong>.
+            </p>
+
+            <h2>5. Social Data Templates</h2>
+            <p>
+                When using templates for WhatsApp, Telegram, or Instagram, the app simply formats the text into a
+                standard URL structure. No login information or account access is ever required or requested by this
+                application.
+            </p>
+
+            <h2>6. Changes to This Policy</h2>
+            <p>
+                We may update this policy from time to time. Any changes will be reflected on this page with an updated
+                revision date.
+            </p>
+
+            <h2>Contact</h2>
+            <p>
+                If you have any questions about this Privacy Policy, you can reach out via our
+                <a href="malto:tellus@mrc.com" target="_blank"
+                    style="color: var(--md-sys-color-primary);">tellus@mrc.com</a> page.
+            </p>
+        </article>
+    </main>
+
+    <footer>
+        <div class="container">
+            © 2026-Present <a href="https://github.com/pro-bandey" target="_blank">Pro Bandey</a> |
+            All Rights Reserved By <a href="https://github.com/MainRoute-Core" target="_blank">MainRoute Core</a>
+        </div>
+    </footer>
+</body>
+
+</html>
